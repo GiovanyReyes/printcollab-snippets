@@ -1,3 +1,4 @@
+// Using ECMAScript ASI
 angular.module('public.checkout')
     .factory('CheckoutServices', CheckoutServicesFactory)
 CheckoutServicesFactory.$inject = ['$http']
