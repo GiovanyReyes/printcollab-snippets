@@ -1,3 +1,5 @@
+// Using ECMAScript ASI
+(function () {
 angular.module('public.layout')
     .directive('searchModal', searchModal)
     .directive('searchInput', searchInput)
@@ -49,3 +51,4 @@ function searchCloseDetails() {
         }
     }
 }
+})()
