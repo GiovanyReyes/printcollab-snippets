@@ -1,3 +1,4 @@
+// Using ECMAScript ASI
 module.exports = ordersService
 
 function ordersService(options) {
