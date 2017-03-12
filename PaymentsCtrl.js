@@ -1,3 +1,5 @@
+// Using ECMAScript ASI
+(function () {
 angular.module('public.payments')
     .controller('PaymentsController', PaymentsController)
 PaymentsController.$inject = ['PaymentsService', '$scope', '$state', '$rootScope', 'UsersService']
@@ -69,3 +71,4 @@ function PaymentsController(PaymentsService, $scope, $state, $rootScope, UsersSe
 
     console.log(vm.user.stripe_id + '   user stripe outside of function')
 }
+})()
