@@ -1,4 +1,4 @@
-// Using ECMAScript ASI
+//Using ECMAScript ASI
 (function () {
 angular.module('public.payments')
     .controller('PaymentsController', PaymentsController)
