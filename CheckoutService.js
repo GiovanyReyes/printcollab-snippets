@@ -1,4 +1,5 @@
 // Using ECMAScript ASI
+(function () {
 angular.module('public.checkout')
     .factory('CheckoutServices', CheckoutServicesFactory)
 CheckoutServicesFactory.$inject = ['$http']
@@ -27,3 +28,4 @@ function CheckoutServicesFactory($http) {
             })
     }
 }
+})()
