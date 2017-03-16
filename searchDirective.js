@@ -1,4 +1,4 @@
-//Using ECMAScript ASI
+//Using standard JS
 (function () {
 angular.module('public.layout')
     .directive('searchModal', searchModal)
