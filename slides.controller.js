@@ -1,4 +1,4 @@
-//Using standard JS
+// Using standard JS
 
 const responses = require('../models/responses')
 const path = require('path')
