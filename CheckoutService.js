@@ -1,4 +1,4 @@
-//Using standard JS
+// Using standard JS
 (function () {
 angular.module('public.checkout')
     .factory('CheckoutServices', CheckoutServicesFactory)
