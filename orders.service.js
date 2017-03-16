@@ -1,4 +1,4 @@
-//Using ECMAScript ASI
+//Using standard JS
 module.exports = ordersService
 
 function ordersService(options) {
