@@ -1,3 +1,4 @@
+(function() {
 'use strict'
 // using Standard JS
 angular.module('public.checkout', ['ui.router', 'ui.bootstrap-slider', 'stripe'])
@@ -165,3 +166,4 @@ angular.module('public.checkout', ['ui.router', 'ui.bootstrap-slider', 'stripe']
 
             })
     })
+})()
