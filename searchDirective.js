@@ -4,7 +4,7 @@ angular.module('public.layout')
     .directive('searchModal', searchModal)
     .directive('searchInput', searchInput)
     .directive('searchCloseBtn', searchCloseBtn)
-   .directive('searchCloseDetails', searchCloseDetails)
+    .directive('searchCloseDetails', searchCloseDetails)
 
 function searchModal() {
     return {
@@ -12,7 +12,6 @@ function searchModal() {
         replace: false,
         link: function(scope, elem, attrs) {
             elem.bind('click', function() {
-                console.log('hi')
                 $('.search-overly-mask').toggleClass('open')
             })
         }
