@@ -5,7 +5,7 @@
     sideTotalController.$inject = [
         '$scope', 
         '$rootScope',
-        'CartService']
+        'CartService'];
     
     function sideTotalController(
          $scope, 
